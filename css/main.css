@@ -1,12 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* Colors */
+/**
+Morning: 6am-12pm
+
+Afternoon: 12pm-7pm
+
+Evening: 7pm-10pm
+
+Night: 10pm-6am
+
+**/
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3.5em;
+}
+
+body {
+    background-color: rgb(19, 22, 23);
+    color: white;
+}
+
+#header {
+    padding: 40px;
+}
+
 #mor {
     display: none;
+    animation: 2s ease-in 0s 1 fadeIn;
 }
 #aft {
     display: none;
+    animation: 2s ease-in 0s 1 fadeIn;
 }
 #eve {
     display: none;
+    animation: 2s ease-in 0s 1 fadeIn;
 }
 #nig {
     display: none;
+    animation: 2s ease-in 0s 1 fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
 }
