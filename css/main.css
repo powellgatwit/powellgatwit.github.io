@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 
 /* Colors */
 /**
@@ -12,7 +13,7 @@ Night: 10pm-6am
 
 **/
 
-h1 {
+h1, .blinking-cursor {
     font-family: 'Source Code Pro', monospace;
     font-size: 3.5em;
 }
@@ -22,26 +23,37 @@ body {
     color: white;
 }
 
+.section {
+
+}
+
 #header {
+    padding: 40px;
+}
+
+#content {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2.5em;
     padding: 40px;
 }
 
 #mor {
     display: none;
-    animation: 2s ease-in 0s 1 fadeIn;
+    animation: 0.5s ease-in 0s 1 fadeIn;
 }
 #aft {
     display: none;
-    animation: 2s ease-in 0s 1 fadeIn;
+    animation: 0.5s ease-in 0s 1 fadeIn;
 }
 #eve {
     display: none;
-    animation: 2s ease-in 0s 1 fadeIn;
+    animation: 0.5s ease-in 0s 1 fadeIn;
 }
 #nig {
     display: none;
-    animation: 2s ease-in 0s 1 fadeIn;
+    animation: 0.5s ease-in 0s 1 fadeIn;
 }
+/* greeting will fade in 0-0.5s, menu will be 0.25-0.75s*/
 
 @keyframes fadeIn {
     0% {
@@ -51,3 +63,60 @@ body {
         opacity: 100;
     }
 }
+
+/* Blinking cursor in CSS3 - By Artem Gordinsky */
+
+.blinking-cursor {
+    color: gray;
+    font-size: inherit;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: gray;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: gray;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: gray;
+    }
+  }
+  
+  @-ms-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: gray;
+    }
+  }
+  
+  @-o-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: gray;
+    }
+  }

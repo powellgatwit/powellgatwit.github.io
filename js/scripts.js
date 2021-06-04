@@ -1,9 +1,8 @@
 //javascript file for powellgatwit.github.io
+//written by George Powell unless otherwise noted
 
 var d = new Date();
 var h = d.getHours();
-
-//between sunrise and 12pm, morning
 
 function greeting() {
     if (h >= 6 && h < 12) {
@@ -25,6 +24,7 @@ function greeting() {
     }
 }
 
+//functions to run on page load
 function run() {
     greeting();
 }
