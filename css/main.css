@@ -12,23 +12,33 @@ Evening: 7pm-10pm
 Night: 10pm-6am
 
 **/
+body {
+  background-color: rgb(19, 22, 23);
+  color: white;
+  overflow: hidden;
+}
 
 h1, .blinking-cursor {
     font-family: 'Source Code Pro', monospace;
     font-size: 3.5em;
 }
 
-body {
-    background-color: rgb(19, 22, 23);
-    color: white;
+a {
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
 }
 
-.section {
+a:visited, a:active {
+  color: white;
+}
 
+a:hover {
+  color: grey;
 }
 
 #header {
     padding: 40px;
+    width: 100%;
 }
 
 #content {

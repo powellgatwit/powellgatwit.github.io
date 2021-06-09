@@ -8,7 +8,7 @@ function greeting() {
     if (h >= 6 && h < 12) {
         //between 6am and 12pm, morning
         document.getElementById("mor").style.display = "inline";
-        document.body.style.backgroundColor = "#114C4B";
+        document.body.style.backgroundColor = "#005967";
     } else if (h >= 12 && h < 19) {
         //between 12pm and 7pm, afternoon
         document.getElementById("aft").style.display = "inline";
