@@ -26,6 +26,7 @@ h1, .blinking-cursor {
 a {
   font-family: 'Source Code Pro', monospace;
   text-decoration: none;
+  transition: color 125ms;
 }
 
 a:visited, a:active {
