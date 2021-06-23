@@ -1,6 +1,4 @@
-# A Github Pages site: powellgatwit.github.io
-Website code for powellg.github.io. All code written by me.
+# powellgatwit.github.io : a github pages site
+A personal website and custom homepage :)
 
-Purpose: a customized, personalized homepage with links.
-
-Categories: School, Finances, Personal, Tools
+Designed and built just for fun
