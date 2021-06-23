@@ -28,11 +28,48 @@ a {
     font-size: 1.75em;
 }
 
+@media (max-width: 779px) {                  
+    #me {
+       display: none;
+    }
+ }
+
+#me {
+    margin-left: 30px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+#top, #bot {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+    transition: opacity 300ms;
+}
+
+#top {
+    display: inline-block;
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#bot {
+    position: absolute;
+    margin-left: 0;
+    z-index: -1;
+}
+
+#top:hover {
+    opacity: 0;
+}
+
 #content {
     padding-top: 30px;
     margin-left: 25%;
     margin-right: 25%;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.7em;
     line-height: 1.4;
 }
