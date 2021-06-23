@@ -59,6 +59,10 @@ footer {
   padding: 40px;
 }
 
+#menu {
+  padding-left: 100px;
+}
+
 /* greeting fades in from 0 to 0.5 seconds on page load*/
 #mor {
     display: none;
@@ -93,10 +97,16 @@ footer {
   font-size: 0.8em;
 }
 
+#name {
+  font-family: 'Pacifico', cursive;
+}
+
+
+
 /* Blinking cursor in CSS3 - By Artem Gordinsky */
 
 .blinking-cursor {
-    color: gray;
+    color: #c5c5c5;
     font-size: inherit;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
@@ -110,7 +120,7 @@ footer {
       color: transparent;
     }
     50% {
-      color: gray;
+      color: #c5c5c5;
     }
   }
   
@@ -119,7 +129,7 @@ footer {
       color: transparent;
     }
     50% {
-      color: gray;
+      color: #c5c5c5;
     }
   }
   
@@ -128,7 +138,7 @@ footer {
       color: transparent;
     }
     50% {
-      color: gray;
+      color: #c5c5c5;
     }
   }
   
@@ -137,7 +147,7 @@ footer {
       color: transparent;
     }
     50% {
-      color: gray;
+      color: #c5c5c5;
     }
   }
   
@@ -146,6 +156,6 @@ footer {
       color: transparent;
     }
     50% {
-      color: gray;
+      color: #c5c5c5;
     }
   }
