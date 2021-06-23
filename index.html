@@ -17,20 +17,53 @@
 			<span id="name"></span><span class="blinking-cursor">_</span>
 		</h1>
         <div id="menu">
-            <a>about me</a> &bull;
-            <a>contact</a> &bull;
-            <a>resume</a>
+            <a id="a" onclick="menu('about', 'a')">about me</a> &nbsp;&bull;&nbsp;
+            <a id="b" onclick="menu('contact', 'b')">contact</a> &nbsp;&bull;&nbsp;
+            <a id="c" onclick="menu('resume', 'c')">resume</a>
         </div>
 	</div>
 	
 	<!-- Sections -->
+	<section id="content">
+		<div id="subtext">
+			&#9660; Boston, MA <br>(This site is scheduled to be finished on June 24th, 2021.)<hr>
+		</div>
+
+		<div id="about">
+			Hello &dash; My name is George, and I'm a junior at Wentworth Institute of Technology studying Computer Science. 
+			<br><br>
+			I'm passionate about learning, and I love injecting others with enthusiasm.
+			<br><br>
+			At the moment, I work with Orthodox Christian Fellowship on the Student Leadership Board, and I'm the current president of the WIT Chess Club.
+		</div>
+
+		<div id="contact">
+			Feel free to contact me on:
+			<ul>
+				<li><a href="https://linkedin.com/in/georgehpowell" target="_blank">LinkedIn</a></li>
+				<li>email: <a href="mailto:powellg@github.io" target="_blank">powellg@wit.edu</a></li>
+				<li><a>discord: george#4665</a></li>
+			</ul>
+			Other links:
+			<ul>
+				<li><a href="https://github.com/powellgatwit" target="_blank">GitHub</a></li>
+				<li><a href="https://www.chess.com/member/egglemonsoup" target="_blank">Chess.com</a></li>
+				<li><a href="https://www.goodreads.com/user/show/96539354-george-powell" target="_blank">goodreads</a></li>
+			</ul>
+		</div>
+
+		<div id="resume">
+			A .pdf of my resume can be viewed here.<br>
+			<a>View my resume</a>
+		</div>
+	</section>
 
 	<footer>
 		Designed and built by George Powell. <span id="copyr">&copy; </span><span id="copyyear"></span>
 	</footer>
 
-	<script src="js/scripts.js"></script>
-    <script>typewriter();</script>
+	<script src="js/all.js"></script>
+	<script src="js/index.js"></script>
 	
 </body>
 </html>

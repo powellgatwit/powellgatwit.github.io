@@ -1,9 +1,42 @@
+a {
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: color 125ms, text-decoration-color 200ms;
+  }
+  
+  a:visited, a:active {
+    color: white;
+  }
+  
+  a:hover {
+    color: grey;
+  }
+
 #header {
     padding-left: 25%;
 }
-#menu {
-    
-}
+
 #name {
     font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.5em; /*already large from all.css*/
+}
+
+#menu {
+    font-size: 1.75em;
+}
+
+#content {
+    padding-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Lora', serif;
+    font-size: 1.7em;
+    line-height: 1.4;
+}
+
+#about, #contact, #resume {
+    display: none;   
 }
