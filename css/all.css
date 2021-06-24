@@ -19,7 +19,7 @@ Night: 10pm-6am
 body {
   background-color: rgb(19, 22, 23);
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1, .blinking-cursor {
