@@ -1,21 +1,33 @@
+body {
+    padding-left: 15%;
+    margin-right: 15%
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-left: 10px;
+    }
+}
+
 a {
     font-family: 'Source Code Pro', monospace;
     cursor: pointer;
+    color: #ffb6c1 !important;
     text-decoration: underline;
     text-decoration-color: transparent;
     transition: color 125ms, text-decoration-color 200ms;
-  }
-  
-  a:visited, a:active {
-    color: white;
-  }
-  
-  a:hover {
+}
+
+a:visited {
+    color: #ffb6c1 !important;
+}
+
+a:hover {
     color: grey;
-  }
+}
 
 #header {
-    padding-left: 25%;
+
 }
 
 #name {
@@ -32,13 +44,17 @@ a {
     #me {
        display: none;
     }
- }
+}
+
+
 
 #me {
     margin-left: 30px;
     position: relative;
     width: 20%;
     height: 100%;
+    /* currently disabled */
+    display: none;
 }
 
 #top, #bot {
@@ -67,7 +83,6 @@ a {
 
 #content {
     padding-top: 30px;
-    margin-left: 25%;
     margin-right: 25%;
     font-family: 'Roboto', sans-serif;
     font-size: 1.7em;

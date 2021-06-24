@@ -27,14 +27,14 @@ h1, .blinking-cursor {
     font-size: 3.5em;
 }
 
-a {
+a:visited {
+  color: white !important;
+}
+
+a:link {
   font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   transition: color 125ms;
-}
-
-a:visited, a:active {
-  color: white;
 }
 
 a:hover {
