@@ -42,17 +42,19 @@ a:hover {
 }
 
 footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  color: #c5c5c5;
+  padding: 10px;
+  padding-left: 15px;
+  background-color: inherit;
+  opacity: 0.9;
+  color: white;
   text-align: left;
   font-family: 'Pacifico', cursive;
   /*font-family: 'Roboto', sans-serif;*/
-  font-size: 1em; 
+  font-size: 0.9em; 
 }
 
 /*
