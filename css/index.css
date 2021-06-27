@@ -3,13 +3,16 @@ body {
     padding-right: 15%
 }
 
-a {
+a, li {
     font-family: 'Source Code Pro', monospace;
-    cursor: pointer;
     color: white;
     text-decoration: underline;
     text-decoration-color: transparent;
     transition: color 125ms, text-decoration-color 200ms;
+}
+
+a {
+    cursor: pointer;
 }
 
 a:link, #a, #b, #c {
@@ -18,6 +21,7 @@ a:link, #a, #b, #c {
 
 a:visited {
     color: #ffb6c1 !important;
+    text-decoration: none;
 }
 
 a:hover {
