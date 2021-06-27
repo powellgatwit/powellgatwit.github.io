@@ -7,6 +7,7 @@ function menu(page, id) {
     document.getElementById("about").style.display = "none";
     document.getElementById("contact").style.display = "none";
     document.getElementById("resume").style.display = "none";
+    document.getElementById("landing").style.display = "none";
     //no more underlines
     document.getElementById("a").style.textDecorationColor = "transparent";
     document.getElementById("b").style.textDecorationColor = "transparent";
@@ -50,5 +51,16 @@ function typewriter() {
         setTimeout("typewriter()", iSpeed);
     }
 }
-
+/*
+$(function () {
+    count2 = 0;
+    locs = ["", " ➜ Houston, Texas?"];
+    setInterval(function () {
+      count2++;
+      $("#location").fadeOut(400, function () {
+        $(this).text(locs[count2 % locs.length]).fadeIn(500);
+      });
+    }, 7000);
+  });
+*/
 window.onload = setTimeout(typewriter, 700);

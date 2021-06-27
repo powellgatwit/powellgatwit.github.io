@@ -16,43 +16,53 @@
 		<h1>
 			<span id="name"></span><span class="blinking-cursor">_</span>
 		</h1>
+		
         <div id="menu">
+			<div id="subtext">
+				Boston, Massachusetts ➜ Houston, Texas?<span id="location"></span><!--Tyngsboro, MA &#10140; Boston, MA &#10140; Houston, TX?-->
+			</div>
+			<hr>
             <a id="a" onclick="menu('about', 'a')">about me</a> &nbsp;&bull;&nbsp;
             <a id="b" onclick="menu('contact', 'b')">contact</a> &nbsp;&bull;&nbsp;
             <a id="c" onclick="menu('resume', 'c')">resume</a>
+			<hr>
         </div>
+		
 	</div>
 	
 	<!-- Sections -->
 	<!-- Picture -->
-	<section id="me">
-		<img id="top" src="media/me3.jpg" />
-		<img id="bot" src="media/me4.jpg" />
-	</section>
 	
 	<section id="content">
-		<div id="subtext">
-			Tyngsboro, MA &#10140; Boston, MA &#10140; Houston, TX?<br>
-			<!--(This site is scheduled to be finished on June 24th, 2021.)-->
-			<hr>
+		<div id="landing">
+			<!--<p><i>
+				George Powell, CS Student<br>
+				Wentworth Institute of Technology<br>
+				Boston, MA
+			</i></p>
+			<a href="mailto:powellg@wit.edu" target="_blank">powellg@wit.edu</a><br>
+			<a href="https://linkedin.com/in/georgehpowell" target="_blank">LinkedIn</a><br>
+			<a href="https://github.com/powellgatwit" target="_blank">GitHub</a>-->
 		</div>
 
 		<div id="about">
+			<!--<img id="me" src="media/georgemountain.jpg" />-->
 			<!-- what am I doing -->
 			<p>
-			Hi! My name is George, and I'm a junior at Wentworth Institute of Technology. 
-			I'm studying Computer Science with a minor in Writing, Editing, and Publishing. 
+				Hi! My name is George, and I'm a junior at Wentworth Institute of Technology. 
+				I'm studying <u>Computer Science</u> with a minor in <u>Writing, Editing, and Publishing.</u></p> 
 			</p>
 			<!-- what motivates me-->
+			<!-- career -->
 			<p>
-			I am an enthusiastic learner. I love to make people laugh. Reading is one of my greatest hobbies.
+				I'm an enthusiastic learner, and currently applying for Computer Science-related internships or co-ops for the Spring 2022 semester!
 			</p>
 			<!-- where do I wanna go -->
 			<p>
-			At the moment, I work with <a href="http://ocf.net" target="_blank">Orthodox Christian Fellowship</a>
-			 on the Student Leadership Board. 
-			I'm also the current president of the WIT Chess Club.
+				At the moment, I work with <a href="http://ocf.net" target="_blank">Orthodox Christian Fellowship</a> 
+				on the Student Leadership Board, and I'm the president of the WIT Chess Club.
 			</p>
+			
 		</div>
 
 		<div id="contact">
@@ -80,6 +90,7 @@
 		Designed and built by George Powell. <span id="copyr">&copy; </span><span id="copyyear"></span>
 	</footer>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="js/all.js"></script>
 	<script src="js/index.js"></script>
 	<script>document.body.style.backgroundColor = "#1D1D1D"</script>
