@@ -52,7 +52,9 @@ footer {
   opacity: 0.9;
   color: white;
   text-align: left;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  /*font-family: 'Pacifico', cursive;*/
   /*font-family: 'Roboto', sans-serif;*/
   font-size: 0.9em; 
 }
@@ -76,6 +78,7 @@ footer {
 #copyyear {
   font-size: 0.8em;
 }
+
 
 /* Blinking cursor in CSS3 - By Artem Gordinsky */
 

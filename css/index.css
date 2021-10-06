@@ -3,6 +3,10 @@ body {
     padding-right: 15%
 }
 
+h1 {
+    margin: 0;
+}
+
 a, li {
     font-family: 'Source Code Pro', monospace;
     color: white;
@@ -45,7 +49,7 @@ p {
 #name {
     font-family: 'Lora', serif;
     font-style: italic;
-    font-size: 1.5em; /*already large from all.css*/
+    font-size: 1.2em; /*already large from all.css*/
 }
 
 #menu {
@@ -63,9 +67,11 @@ p {
     padding-top: 0px;
     padding-bottom: 60px;
     margin-right: 25%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7em;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.4em;
     line-height: 1.4;
+    color: #c0c0c0;
 }
 
 #about, #contact, #resume {
@@ -82,5 +88,9 @@ p {
         /*padding-left: 10px;*/
         margin-right: 0;
         margin-left: 0;
+    }
+    #contact {
+        /* changed to prevent bullets from sticking to side of screen */
+        text-align: left;
     }
 }

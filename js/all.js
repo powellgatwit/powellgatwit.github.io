@@ -39,5 +39,3 @@ function run() {
 }
 //run the above functions when the page(s) load
 window.onload = run();
-
-//cool idea from a 2016 website: code footer as a JS array and load it into the page via js
