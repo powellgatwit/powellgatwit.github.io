@@ -52,11 +52,12 @@ footer {
   opacity: 0.9;
   color: white;
   text-align: left;
-  font-family: 'Lora', serif;
+  font-family: 'Source Code Pro', monospace;
+  /*font-family: 'Lora', serif;*/
   font-style: italic;
   /*font-family: 'Pacifico', cursive;*/
   /*font-family: 'Roboto', sans-serif;*/
-  font-size: 0.9em; 
+  font-size: 0.85em;
 }
 
 /*
@@ -74,7 +75,7 @@ footer {
 
 #copyr {
  font-size: 0.7em;
-} 
+}
 #copyyear {
   font-size: 0.8em;
 }
@@ -91,7 +92,7 @@ footer {
     -o-animation: 1s blink step-end infinite;
     animation: 1s blink step-end infinite;
   }
-  
+
   @keyframes blink {
     from, to {
       color: transparent;
@@ -100,7 +101,7 @@ footer {
       color: #c5c5c5;
     }
   }
-  
+
   @-moz-keyframes blink {
     from, to {
       color: transparent;
@@ -109,7 +110,7 @@ footer {
       color: #c5c5c5;
     }
   }
-  
+
   @-webkit-keyframes blink {
     from, to {
       color: transparent;
@@ -118,7 +119,7 @@ footer {
       color: #c5c5c5;
     }
   }
-  
+
   @-ms-keyframes blink {
     from, to {
       color: transparent;
@@ -127,7 +128,7 @@ footer {
       color: #c5c5c5;
     }
   }
-  
+
   @-o-keyframes blink {
     from, to {
       color: transparent;
