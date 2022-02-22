@@ -74,7 +74,7 @@ p {
     color: #c0c0c0;
 }
 
-#about, #contact, #resume {
+#about, #contact, #resume, #projects {
     display: none;
 }
 

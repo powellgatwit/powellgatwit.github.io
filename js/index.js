@@ -7,11 +7,13 @@ function menu(page, id) {
     document.getElementById("about").style.display = "none";
     document.getElementById("contact").style.display = "none";
     document.getElementById("resume").style.display = "none";
+    document.getElementById("projects").style.display = "none";
     document.getElementById("home").style.display = "none";
     //no more underlines
     document.getElementById("a").style.textDecorationColor = "transparent";
     document.getElementById("b").style.textDecorationColor = "transparent";
     document.getElementById("c").style.textDecorationColor = "transparent";
+    document.getElementById("d").style.textDecorationColor = "transparent";
     document.getElementById("h").style.textDecorationColor = "transparent";
     //show selected content
     document.getElementById(page).style.display = "inline";
