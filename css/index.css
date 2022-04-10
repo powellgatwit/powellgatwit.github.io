@@ -7,6 +7,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+	margin-bottom: 0;
+}
+
 a, li {
     font-family: 'Source Code Pro', monospace;
     color: white;
