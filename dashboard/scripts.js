@@ -18,7 +18,7 @@ function statistics() {
     const weeksElapsed = Math.floor(daysElapsed / 7);
     const leftoverDaysElapsed = daysElapsed % 7;
     const weeksRemaining = Math.floor(daysRemaining / 7);
-    const leftoverDaysRemaining = daysRemaining % 7;
+    const leftoverDaysRemaining = (daysRemaining % 7) + 1;
 
     // END HERE if not currently working
     if (now.getHours() < 9 || now.getHours() > 17) return;
