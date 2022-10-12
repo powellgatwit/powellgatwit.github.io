@@ -17,7 +17,7 @@ function statistics() {
     
     // weeks completed / weeks remaining
     const weeksElapsed = Math.floor(daysElapsed / 7);
-    const leftoverDaysElapsed = daysElapsed % 7;
+    const leftoverDaysElapsed = daysElapsed % 7 + 1;
     const weeksRemaining = Math.floor(daysRemaining / 7);
     const leftoverDaysRemaining = (daysRemaining % 7) + 1; //unused
 
@@ -46,5 +46,18 @@ function statistics() {
 
 }
 
+function nanowrimo() {
+    const now = new Date();
+    const NOV_1 = new Date(2022, 10, 1);
+    const NOV_30 = new Date(2022, 10, 30);
+
+    if (now < NOV_1) {
+        document.getElementById("nano").innerHTML = "until NaNoWriMo: " + ((NOV_1 - now)/MS_TO_DAYS).toFixed(0);
+    } else {
+        document.getElementById("nano").innerHTML = "of NaNoWriMo: " + ((NOV_30 - now)/MS_TO_DAYS).toFixed(0);
+    }
+}
+
 // updates 5 times per second
 setInterval(statistics, 200);
+setInterval(nanowrimo, 5000);
