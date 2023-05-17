@@ -66,4 +66,5 @@ $(function () {
     }, 7000);
   });
 */
-window.onload = setTimeout(typewriter, 700);
+
+window.onload = setTimeout(typewriter, 700), document.getElementById(h).style.textDecorationColor = "white";

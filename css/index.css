@@ -14,8 +14,8 @@ h2 {
 a, li {
     font-family: 'Source Code Pro', monospace;
     color: white;
-    text-decoration: underline;
-    text-decoration-color: transparent;
+    /*text-decoration: underline;
+    text-decoration-color: transparent;*/
     transition: color 125ms, text-decoration-color 200ms;
 }
 
@@ -25,6 +25,10 @@ a {
 
 a:link, .nav {
     color: #ffb6c1 !important;
+}
+.nav {
+    text-decoration: underline;
+    text-decoration-color: transparent;
 }
 
 a:visited {
